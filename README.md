@@ -6,11 +6,11 @@
 
 Wake up feeling groggy? Are you at 100%? 80%?
 
-When a computer wake up, the firmware executes a power-on self-test (POST). This allows the software (mind) to know how the hardware (brain/body) is functioning and to detect if any problems exist that the system should be aware of when executing future tasks.
+When a computer wakes up, the firmware executes a power-on self-test (POST). This allows the software (mind) to know how the hardware (brain/body) is functioning and to detect if any problems exist that the system should be aware of when executing future tasks.
 
 Likewise, POSThuman is designed to run a diagnostic on human functionality as a wake-up routine.
 
-The exercises are designed to take about 10-15 minutes in total and test everything from hand-eye coordination to simple math mental dexterity to creative word association.
+The exercises are designed to take about 10-15 minutes in total and test everything from hand-eye coordination to simple-math mental dexterity to creative word association.
 
 Additionally, many tasks are paired with minor, equipment-free physical stretching exercises.
 
@@ -56,8 +56,33 @@ Do this daily to track your score and improve each task.
 - Level 3: count by 3
 - Level 4: count by powers of 2 (when you get stuck, look at the number key and continue)
 
+### Powers of 2 table
+| n  | 2^n       |
+|----|-----------|
+| 1  | 2         |
+| 2  | 4         |
+| 3  | 8         |
+| 4  | 16        |
+| 5  | 32        |
+| 6  | 64        |
+| 7  | 128       |
+| 8  | 256       |
+| 9  | 512       |
+| 10 | 1,024     |
+| 11 | 2,048     |
+| 12 | 4,096     |
+| 13 | 8,192     |
+| 14 | 16,384    |
+| 15 | 32,768    |
+| 16 | 65,536    |
+| 17 | 131,072   |
+| 18 | 262,144   |
+| 19 | 524,288   |
+| 20 | 1,048,576 |
+
 ### Words
 thesaurus prompt
+... ideas:
 - rhyme prompt
 - npm install random-words
 - curl https://api.datamuse.com/words?rel_rhy=$1 | jq .
