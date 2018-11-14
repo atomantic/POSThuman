@@ -1,0 +1,37 @@
+{
+  "name": "posthuman",
+  "version": "0.1.0",
+  "description": "A POST for Humans",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomantic/POSThuman.git"
+  },
+  "keywords": [
+    "test",
+    "power-on",
+    "post",
+    "power-on-self-test",
+    "exercise",
+    "wake-up",
+    "morning",
+    "routine"
+  ],
+  "author": "Adam Eivy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomantic/POSThuman/issues"
+  },
+  "homepage": "https://github.com/atomantic/POSThuman#readme",
+  "dependencies": {
+    "big-number": "1.0.0",
+    "chalk": "2.4.1",
+    "inquirer": "6.2.0",
+    "lodash.random": "3.2.0",
+    "lowdb": "1.0.0"
+  }
+}
