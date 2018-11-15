@@ -14,6 +14,9 @@ let today = {
 // each task
 require('./tasks/drawing')(today, prompts, graders)
 require('./tasks/subtract')(today, prompts, graders)
+require('./tasks/juggling')(today, prompts, graders)
+require('./tasks/multiply')(today, prompts, graders)
+require('./tasks/toes')(today, prompts, graders)
 
 console.log('\n', chalk.blue('\\[._.]/'), ' - '+chalk.cyan('POSThuman')+', a power-on self-test for humans:\n')
 
