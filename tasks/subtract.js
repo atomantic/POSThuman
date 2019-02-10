@@ -15,7 +15,7 @@ module.exports = function(today, prompts, graders){
     })
 
     graders.subtract = function(myAnswer){
-        if(Number(myAnswer) === answer){
+        if(Number(myAnswer) == answer){
             console.log('😄 - correct!')
             today.points += 10
         }else{
