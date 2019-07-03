@@ -19,7 +19,7 @@ module.exports = (today, prompts, graders)=>{
         if(Number(myAnswer) !== answer){
             return console.error('😭 - wrong', question, answer)
         }
-        console.log('😄 - correct!')
+        console.log('😄 - multiplication challenge correct!')
         today.points += 10
     }
 }
