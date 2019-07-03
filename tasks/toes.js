@@ -1,4 +1,4 @@
-module.exports = function(today, prompts, graders){
+module.exports = (today, prompts, graders)=>{
     today.possible += 20
     prompts.push({
         type: 'input',
@@ -10,7 +10,7 @@ module.exports = function(today, prompts, graders){
         '   - level 4: count by powers of 2 (if you get stuck, look at the number key and continue)\n'+
         'Score (0-20):'
     })
-    graders.toes = function(answer){
+    graders.toes = (answer)=>{
         today.points += Number(answer)
     }
 }

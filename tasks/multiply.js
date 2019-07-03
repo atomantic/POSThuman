@@ -1,6 +1,6 @@
 const random = require('lodash.random')
 
-module.exports = function(today, prompts, graders){
+module.exports = (today, prompts, graders)=>{
     today.possible += 10
 
     const num1 = random(10, 100)
@@ -15,12 +15,11 @@ module.exports = function(today, prompts, graders){
         message: question
     })
 
-    graders.subtract = function(myAnswer){
-        if(Number(myAnswer) == answer){
-            console.log('😄 - correct!')
-            today.points += 10
-        }else{
-            console.error('😭 - wrong', question, answer)
+    graders.multiply = (myAnswer)=>{
+        if(Number(myAnswer) !== answer){
+            return console.error('😭 - wrong', question, answer)
         }
+        console.log('😄 - correct!')
+        today.points += 10
     }
 }

@@ -1,4 +1,4 @@
-module.exports = function(today, prompts, graders){
+module.exports = (today, prompts, graders)=>{
     today.possible += 10
     prompts.push({
         type: 'input',
@@ -13,7 +13,7 @@ module.exports = function(today, prompts, graders){
         '   - level 7: (4 balls, swapping across)\n'+
         'Score (0-10):'
     })
-    graders.juggling = function(answer){
+    graders.juggling = (answer)=>{
         today.points += Number(answer)
     }
 }

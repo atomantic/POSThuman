@@ -1,4 +1,4 @@
-module.exports = function(today, prompts, graders){
+module.exports = (today, prompts, graders)=>{
     today.possible += 10
     prompts.push({
         type: 'input',
@@ -10,7 +10,7 @@ module.exports = function(today, prompts, graders){
         '   - For each line, score yourself 1 point for connecting the two dots and another point for the straightness of the line.\n'+
         'Score (0-10):'
     })
-    graders.drawing = function(answer){
+    graders.drawing = (answer)=>{
         today.points += Number(answer)
     }
 }
